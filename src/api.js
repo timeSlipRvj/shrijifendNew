@@ -11,7 +11,7 @@ if (getAuthToken()) {
 export default axios.create({
   // baseURL: "https://shriji.herokuapp.com/",
   // baseURL: "https://api.shrijishringar.com/",
-  baseURL: "http://localhost:5000",
+  baseURL: "https://shiriji-server-7mme7.ondigitalocean.app/",
   headers: {
     Accept: "applications/json",
   },
@@ -19,5 +19,5 @@ export default axios.create({
 
 // export const baseUrl = "https://shriji.herokuapp.com/";
 // export const baseUrl = "https://api.shrijishringar.com/";
-export const baseUrl = "http://localhost:5000";
+export const baseUrl = "https://shiriji-server-7mme7.ondigitalocean.app/";
 
